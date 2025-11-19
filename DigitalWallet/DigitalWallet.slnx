@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="Api.Gateway/Api.Gateway.csproj" />
+    <Project Path="BuildingBlocks/BuildingBlocks.csproj" />
+    <Project Path="Services.Budget/Services.Budget.csproj" />
+    <Project Path="Services.Identity/Services.Identity.csproj" />
+    <Project Path="Services.Notification/Services.Notification.csproj" />
+    <Project Path="Services.PaymentAdapter/Services.PaymentAdapter.csproj" />
+    <Project Path="Services.Project/Services.Project.csproj" />
+    <Project Path="Services.TransactionWorker/Services.TransactionWorker.csproj" />
+    <Project Path="Services.Wallet/Services.Wallet.csproj" />
+    <Project Path="Shared/Shared.csproj" />
+  </Folder>
+  <Project Path="DigitalWallet/DigitalWallet.csproj" />
+</Solution>

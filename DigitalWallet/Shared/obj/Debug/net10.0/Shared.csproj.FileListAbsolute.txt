@@ -1,0 +1,11 @@
+C:\DW\DigitalWallet\Shared\bin\Debug\net10.0\Shared.deps.json
+C:\DW\DigitalWallet\Shared\bin\Debug\net10.0\Shared.dll
+C:\DW\DigitalWallet\Shared\bin\Debug\net10.0\Shared.pdb
+C:\DW\DigitalWallet\Shared\obj\Debug\net10.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\DW\DigitalWallet\Shared\obj\Debug\net10.0\Shared.AssemblyInfoInputs.cache
+C:\DW\DigitalWallet\Shared\obj\Debug\net10.0\Shared.AssemblyInfo.cs
+C:\DW\DigitalWallet\Shared\obj\Debug\net10.0\Shared.csproj.CoreCompileInputs.cache
+C:\DW\DigitalWallet\Shared\obj\Debug\net10.0\Shared.dll
+C:\DW\DigitalWallet\Shared\obj\Debug\net10.0\refint\Shared.dll
+C:\DW\DigitalWallet\Shared\obj\Debug\net10.0\Shared.pdb
+C:\DW\DigitalWallet\Shared\obj\Debug\net10.0\ref\Shared.dll

@@ -1,0 +1,17 @@
+C:\DW\DigitalWallet\Services.Wallet\bin\Debug\net10.0\Services.Wallet.deps.json
+C:\DW\DigitalWallet\Services.Wallet\bin\Debug\net10.0\Services.Wallet.dll
+C:\DW\DigitalWallet\Services.Wallet\bin\Debug\net10.0\Services.Wallet.pdb
+C:\DW\DigitalWallet\Services.Wallet\bin\Debug\net10.0\BuildingBlocks.dll
+C:\DW\DigitalWallet\Services.Wallet\bin\Debug\net10.0\Shared.dll
+C:\DW\DigitalWallet\Services.Wallet\bin\Debug\net10.0\BuildingBlocks.pdb
+C:\DW\DigitalWallet\Services.Wallet\bin\Debug\net10.0\Shared.pdb
+C:\DW\DigitalWallet\Services.Wallet\obj\Debug\net10.0\Services.Wallet.csproj.AssemblyReference.cache
+C:\DW\DigitalWallet\Services.Wallet\obj\Debug\net10.0\Services.Wallet.GeneratedMSBuildEditorConfig.editorconfig
+C:\DW\DigitalWallet\Services.Wallet\obj\Debug\net10.0\Services.Wallet.AssemblyInfoInputs.cache
+C:\DW\DigitalWallet\Services.Wallet\obj\Debug\net10.0\Services.Wallet.AssemblyInfo.cs
+C:\DW\DigitalWallet\Services.Wallet\obj\Debug\net10.0\Services.Wallet.csproj.CoreCompileInputs.cache
+C:\DW\DigitalWallet\Services.Wallet\obj\Debug\net10.0\Services.BD36F9D3.Up2Date
+C:\DW\DigitalWallet\Services.Wallet\obj\Debug\net10.0\Services.Wallet.dll
+C:\DW\DigitalWallet\Services.Wallet\obj\Debug\net10.0\refint\Services.Wallet.dll
+C:\DW\DigitalWallet\Services.Wallet\obj\Debug\net10.0\Services.Wallet.pdb
+C:\DW\DigitalWallet\Services.Wallet\obj\Debug\net10.0\ref\Services.Wallet.dll

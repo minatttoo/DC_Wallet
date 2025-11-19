@@ -1,0 +1,11 @@
+C:\DW\DigitalWallet\BuildingBlocks\bin\Debug\net10.0\BuildingBlocks.deps.json
+C:\DW\DigitalWallet\BuildingBlocks\bin\Debug\net10.0\BuildingBlocks.dll
+C:\DW\DigitalWallet\BuildingBlocks\bin\Debug\net10.0\BuildingBlocks.pdb
+C:\DW\DigitalWallet\BuildingBlocks\obj\Debug\net10.0\BuildingBlocks.GeneratedMSBuildEditorConfig.editorconfig
+C:\DW\DigitalWallet\BuildingBlocks\obj\Debug\net10.0\BuildingBlocks.AssemblyInfoInputs.cache
+C:\DW\DigitalWallet\BuildingBlocks\obj\Debug\net10.0\BuildingBlocks.AssemblyInfo.cs
+C:\DW\DigitalWallet\BuildingBlocks\obj\Debug\net10.0\BuildingBlocks.csproj.CoreCompileInputs.cache
+C:\DW\DigitalWallet\BuildingBlocks\obj\Debug\net10.0\BuildingBlocks.dll
+C:\DW\DigitalWallet\BuildingBlocks\obj\Debug\net10.0\refint\BuildingBlocks.dll
+C:\DW\DigitalWallet\BuildingBlocks\obj\Debug\net10.0\BuildingBlocks.pdb
+C:\DW\DigitalWallet\BuildingBlocks\obj\Debug\net10.0\ref\BuildingBlocks.dll
