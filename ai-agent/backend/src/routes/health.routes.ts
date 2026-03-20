@@ -9,16 +9,8 @@ router.get('/', async (_req: Request, res: Response): Promise<void> => {
   // 1 = connected, 2 = connecting
   const mongoOk = mongoState === 1;
 
-  // Quick Redis ping
-  let redisOk = false;
-  try {
-    const pong = await (redisService as unknown as { client: { ping(): Promise<string> } | null }).client?.ping();
-    redisOk = pong === 'PONG';
-  } catch {
-    redisOk = false;
-  }
-
   const status = mongoOk ? 'ok' : 'degraded';
+  const redisOk = await redisService.isHealthy();
 
   res.status(mongoOk ? 200 : 503).json({
     status,

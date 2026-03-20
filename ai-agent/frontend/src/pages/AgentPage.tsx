@@ -66,7 +66,7 @@ export default function AgentPage() {
   const sessions = sessionsData?.sessions ?? []
 
   return (
-    <div className="flex h-[calc(100vh-0px)] overflow-hidden">
+    <div className="flex h-screen overflow-hidden">
       {/* Sessions sidebar */}
       <div className="w-56 flex-shrink-0 border-r border-gray-800 bg-gray-900 flex flex-col">
         <div className="p-4 border-b border-gray-800">

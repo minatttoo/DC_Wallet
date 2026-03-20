@@ -90,7 +90,10 @@ class OpenAIService {
 
     const openaiMessages: OpenAI.ChatCompletionMessageParam[] = [
       { role: 'system', content: systemPrompt },
-      ...messages.map((m) => ({ role: m.role, content: m.content })),
+      // Only include user and assistant messages from history; system messages are handled above
+      ...messages
+        .filter((m) => m.role === 'user' || m.role === 'assistant')
+        .map((m) => ({ role: m.role as 'user' | 'assistant', content: m.content })),
       { role: 'user', content: userMessage },
     ];
 

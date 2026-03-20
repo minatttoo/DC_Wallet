@@ -42,7 +42,6 @@ stages:
           - script: npm run lint
             workingDirectory: $(backendDir)
             displayName: 'Lint'
-            continueOnError: true
 
           - script: npm run build
             workingDirectory: $(backendDir)

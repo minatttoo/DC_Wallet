@@ -1,9 +1,21 @@
 import dotenv from 'dotenv';
 dotenv.config();
 
+const nodeEnv = process.env.NODE_ENV ?? 'development';
+
+// Warn loudly when the JWT secret is the default placeholder in production
+if (nodeEnv === 'production' && (!process.env.JWT_SECRET || process.env.JWT_SECRET === 'change_me')) {
+  // eslint-disable-next-line no-console
+  console.error(
+    '[SECURITY] JWT_SECRET environment variable is not set or uses the default placeholder. ' +
+      'Set a strong random secret before running in production.',
+  );
+  process.exit(1);
+}
+
 export const config = {
   port: parseInt(process.env.PORT ?? '4000', 10),
-  nodeEnv: process.env.NODE_ENV ?? 'development',
+  nodeEnv,
 
   mongodb: {
     uri: process.env.MONGODB_URI ?? 'mongodb://localhost:27017/personal_ai_agent',

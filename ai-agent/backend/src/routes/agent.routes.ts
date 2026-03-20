@@ -9,6 +9,9 @@ import { rabbitMQService } from '../services/rabbitmq.service';
 const router = Router();
 router.use(authMiddleware);
 
+// Maximum messages to retain per session to prevent unbounded growth
+const MAX_SESSION_MESSAGES = 100;
+
 const CATEGORIES: GoalCategory[] = [
   'software_engineering',
   'faang_prep',
@@ -112,9 +115,9 @@ router.post(
     });
     session.tokensUsed += tokensUsed;
 
-    // Keep last 100 messages to avoid unbounded growth
-    if (session.messages.length > 100) {
-      session.messages = session.messages.slice(-100);
+    // Keep last MAX_SESSION_MESSAGES messages to avoid unbounded growth
+    if (session.messages.length > MAX_SESSION_MESSAGES) {
+      session.messages = session.messages.slice(-MAX_SESSION_MESSAGES);
     }
 
     await session.save();

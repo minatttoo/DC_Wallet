@@ -64,6 +64,16 @@ class RedisService {
       // silently ignore
     }
   }
+
+  async isHealthy(): Promise<boolean> {
+    if (!this.client) return false;
+    try {
+      const pong = await this.client.ping();
+      return pong === 'PONG';
+    } catch {
+      return false;
+    }
+  }
 }
 
 export const redisService = new RedisService();

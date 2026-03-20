@@ -96,9 +96,12 @@ router.patch(
 
     routine.entries[entryIndex].completed = completed;
 
-    // Recalculate overall score
+    // Recalculate overall score (guard against empty entries)
     const completedCount = routine.entries.filter((e) => e.completed).length;
-    routine.overallScore = Math.round((completedCount / routine.entries.length) * 10);
+    routine.overallScore =
+      routine.entries.length > 0
+        ? Math.round((completedCount / routine.entries.length) * 10)
+        : 0;
 
     await routine.save();
     res.json({ success: true, routine });

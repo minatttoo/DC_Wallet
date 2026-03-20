@@ -29,6 +29,7 @@ router.post(
       return;
     }
 
+    // passwordHash receives the plaintext here — the User pre-save hook applies bcrypt
     const user = await User.create({ name, email, passwordHash: password });
 
     const token = jwt.sign({ userId: user._id.toString(), email }, config.jwt.secret, {
